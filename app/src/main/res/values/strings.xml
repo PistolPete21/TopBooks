@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TopBooks</string>
+
+    <string name="error_text">There was an error loading the books</string>
+
+    <!-- Content Descriptions -->
+    <string name="image_view_cd">Book Image</string>
+
+    <!-- Labels -->
+    <string name="book_author_label">Author:</string>
+    <string name="book_publisher_label">Publisher:</string>
+
+    <!-- Transition -->
+    <string name="book_image">Book Image</string>
+    <string name="book_title">Book Title</string>
+
+</resources>
