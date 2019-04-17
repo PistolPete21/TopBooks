@@ -3,7 +3,6 @@ package com.android.topbooks.ui.adapter
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
-import com.android.topbooks.model.response.Book
 import com.android.topbooks.model.response.Category
 import com.android.topbooks.model.response.Response
 import com.android.topbooks.ui.fragment.BookListFragment

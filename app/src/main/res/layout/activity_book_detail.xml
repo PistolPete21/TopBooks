@@ -23,7 +23,6 @@
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 android:theme="@style/AppTheme"
-                android:transitionName="@string/book_image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
 
@@ -40,7 +39,6 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:transitionName="@string/book_title"
                 app:layout_constraintStart_toStartOf="@id/guideline"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>

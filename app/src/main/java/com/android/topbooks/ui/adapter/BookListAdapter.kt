@@ -15,12 +15,12 @@ class BookListAdapter(private val clickHandler: BookListAdapterOnClickHandler, p
         fun onClick(book:Book)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, position: Int): BookListAdapter.BookViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, position: Int): BookViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.book_list_item, parent, false)
         return BookViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: BookListAdapter.BookViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: BookViewHolder, position: Int) {
         val book:Book = bookList[position]
         holder.bind(book)
     }

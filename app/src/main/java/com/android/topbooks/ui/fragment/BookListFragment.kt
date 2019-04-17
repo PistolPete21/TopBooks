@@ -35,7 +35,8 @@ class BookListFragment : Fragment(), BookListAdapter.BookListAdapterOnClickHandl
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (arguments != null) books = arguments!!.getSerializable(BOOKS_LIST_INTENT) as List<Book>
+        @Suppress("UNCHECKED_CAST")
+        books = arguments?.getSerializable(BOOKS_LIST_INTENT) as List<Book>
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

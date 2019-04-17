@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-        setContentView(com.android.topbooks.R.layout.activity_main)
+        setContentView(R.layout.activity_main)
 
         progressIndicator = findViewById(R.id.main_activity_progress_indicator)
         errorMessage = findViewById(R.id.main_activity_error_message)

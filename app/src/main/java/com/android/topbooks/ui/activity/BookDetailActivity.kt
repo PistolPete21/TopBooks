@@ -19,7 +19,7 @@ class BookDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.android.topbooks.R.layout.activity_book_detail)
+        setContentView(R.layout.activity_book_detail)
 
         if (intent != null) {
             book = intent?.extras?.getSerializable(BOOK_INTENT) as Book
@@ -41,7 +41,7 @@ class BookDetailActivity : AppCompatActivity() {
             .load(book.book_image)
             .into(image)
 
-        val recyclerView = findViewById<RecyclerView>(com.android.topbooks.R.id.book_sellers_list)
+        val recyclerView = findViewById<RecyclerView>(R.id.book_sellers_list)
 
         val linearLayoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         recyclerView.layoutManager = linearLayoutManager

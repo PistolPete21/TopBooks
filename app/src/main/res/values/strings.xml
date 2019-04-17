@@ -10,8 +10,4 @@
     <string name="book_author_label">Author:</string>
     <string name="book_publisher_label">Publisher:</string>
 
-    <!-- Transition -->
-    <string name="book_image">Book Image</string>
-    <string name="book_title">Book Title</string>
-
 </resources>
